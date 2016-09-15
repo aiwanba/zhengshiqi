@@ -1,0 +1,130 @@
+﻿﻿<!DOCTYPE html>
+<!--[if IE 7]><html class="ie7" lang="zh"><![endif]-->
+<!--[if gt IE 7]><!-->
+<html lang="zh">
+<!--<![endif]-->
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>郑诗琪</title>
+<meta name="Keywords" content="诗琪,郑诗琪,shiqi,zhengshiqi,zhengshiqi.net,www.zhengshiqi.net">
+<meta name="description" content="诗琪,郑诗琪,shiqi,zhengshiqi,zhengshiqi.net,www.zhengshiqi.net">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="content">
+  <div class="wrapper">
+    <div class="light"><i></i></div>
+    <hr class="line-left">
+    <hr class="line-right">
+    <div class="main">
+      <h1 class="title">郑诗琪的成长历程</h1>
+
+      <div class="year">
+        <h2><a href="#">2016年<i></i></a></h2>
+        <div class="list">
+          <ul>
+            <li class="cls highlight">
+              <p class="date">01月13日</p>
+              <p class="intro">2016年春节马上就要到了！</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>2016年春节马上就要到了，还有25天就要春节了（2月8号春节）</p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">01月01日</p>
+              <p class="intro">2016年，新年新气象！</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>今天是2016年的第一天，新年新气象！</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="year">
+        <h2><a href="#">2015年<i></i></a></h2>
+        <div class="list">
+          <ul>
+            <li class="cls highlight">
+              <p class="date">12月04日</p>
+              <p class="intro">今天我生日！</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>今天是我一岁的生日，哈哈！</p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">01月4日</p>
+              <p class="intro">今天是我出生一个月！</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>今天是我出生一个月满月日！</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="year">
+        <h2><a href="#">2014年<i></i></a></h2>
+        <div class="list">
+          <ul>
+            <li class="cls highlight">
+              <p class="date">12月30日</p>
+              <p class="intro">想看看我的精彩瞬间么？</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>想看看我的精彩瞬间么，请到我妈妈的QQ空间看看吧：<a href="http://user.qzone.qq.com/820567407/photo/V10TzD5n1EHGPX/" target="_blank">点击这里</a>！</p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">12月04日</p>
+              <p class="intro">欢迎我加入地球这大家庭吧！</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>今天是2014年12月04日早晨7点58分，我从我妈妈肚子里出来啦，欢迎我来到地球吧！</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="year">
+        <h2><a href="#">2013年<i></i></a></h2>
+        <div class="list">
+          <ul>
+            <li class="cls">
+              <p class="date">&nbsp;</p>
+              <p class="intro">网站维护：<a href="http://www.aiwanba.com/" target="_blank">爱玩吧</a> - <!-- CNZZ统计代码--><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257162616'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1257162616' type='text/javascript'%3E%3C/script%3E"));</script><!-- CNZZ统计代码--></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+	$(".main .year .list").each(function (e, target) {
+	    var $target=  $(target),
+	        $ul = $target.find("ul");
+	    $target.height($ul.outerHeight()), $ul.css("position", "absolute");
+	}); 
+	$(".main .year>h2>a").click(function (e) {
+	    e.preventDefault();
+	    $(this).parents(".year").toggleClass("close");
+	});
+	</script>
+
+</body>
+</html>
